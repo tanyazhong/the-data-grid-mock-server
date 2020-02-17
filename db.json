@@ -1,5 +1,6 @@
 {
-    "toilets": [
+    "toilets": 
+    [
       {
         "objectType": "toilet",
         "gpf": "5",
