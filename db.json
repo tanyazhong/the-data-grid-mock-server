@@ -9,7 +9,7 @@
         "ADAstall": "true",
         "basinConditionID": "12345",
         "flushometerConditionID": "67890",
-        "comment": "i love auditing"
+        "comment": "here is a comment"
       },
       {
         "objectType": "toilet",
@@ -19,7 +19,7 @@
         "ADAstall": "false",
         "basinConditionID": "12",
         "flushometerConditionID": "67",
-        "comment": "here is a comment"
+        "comment": "i love auditing"
       }
     ]
 }
