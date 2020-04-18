@@ -9,7 +9,8 @@
         "ADAstall": "true",
         "basinConditionID": "12345",
         "flushometerConditionID": "67890",
-        "comment": "here is a comment"
+        "comment": "here is a comment",
+         "dateConducted": 1587232345
       },
       {
         "objectType": "toilet",
@@ -19,7 +20,8 @@
         "ADAstall": "false",
         "basinConditionID": "12",
         "flushometerConditionID": "67",
-        "comment": "i love auditing"
+        "comment": "i love auditing",
+          "dateConducted": 1587232345
       },
         {
         "objectType": "toilet",
@@ -29,7 +31,8 @@
         "ADAstall": "false",
         "basinConditionID": "12",
         "flushometerConditionID": "67",
-        "comment": "i love auditing"
+        "comment": "i love auditing",
+            "dateConducted": 1587232345
       },
         {
         "objectType": "toilet",
@@ -39,7 +42,8 @@
         "ADAstall": "false",
         "basinConditionID": "12",
         "flushometerConditionID": "67",
-        "comment": "i love auditing"
+        "comment": "i love auditing",
+            "dateConducted": 1587232345
       },
         {
         "objectType": "toilet",
@@ -49,7 +53,8 @@
         "ADAstall": "false",
         "basinConditionID": "12",
         "flushometerConditionID": "67",
-        "comment": "i love auditing"
+        "comment": "i love auditing",
+            "dateConducted": 1587232345
       },
         {
         "objectType": "toilet",
@@ -59,7 +64,8 @@
         "ADAstall": "false",
         "basinConditionID": "12",
         "flushometerConditionID": "67",
-        "comment": "i love auditing"
+        "comment": "i love auditing",
+            "dateConducted": 1587232345
       },
         {
         "objectType": "toilet",
@@ -69,7 +75,8 @@
         "ADAstall": "false",
         "basinConditionID": "12",
         "flushometerConditionID": "67",
-        "comment": "i love auditing"
+        "comment": "i love auditing",
+            "dateConducted": 1587232345
       }
     ]
 }
