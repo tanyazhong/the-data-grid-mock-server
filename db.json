@@ -10,7 +10,7 @@
         "basinConditionID": "12345",
         "flushometerConditionID": "67890",
         "comment": "here is a comment",
-         "dateConducted": 1587232345
+         "dateConducted": "04/19/2020"
       },
       {
         "objectType": "toilet",
