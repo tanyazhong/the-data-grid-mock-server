@@ -21,7 +21,7 @@
         "basinConditionID": "12",
         "flushometerConditionID": "67",
         "comment": "i love auditing",
-          "dateConducted": 1587232345
+          "dateConducted": "5/1/2010"
       },
         {
         "objectType": "toilet",
@@ -32,7 +32,7 @@
         "basinConditionID": "12",
         "flushometerConditionID": "67",
         "comment": "i love auditing",
-            "dateConducted": 1587232345
+            "dateConducted": "05/01/2010"
       },
         {
         "objectType": "toilet",
@@ -43,7 +43,7 @@
         "basinConditionID": "12",
         "flushometerConditionID": "67",
         "comment": "i love auditing",
-            "dateConducted": 1587232345
+            "dateConducted": "4/19/2020"
       },
         {
         "objectType": "toilet",
@@ -54,7 +54,7 @@
         "basinConditionID": "12",
         "flushometerConditionID": "67",
         "comment": "i love auditing",
-            "dateConducted": 1587232345
+            "dateConducted": "04/19/2020"
       },
         {
         "objectType": "toilet",
@@ -65,7 +65,7 @@
         "basinConditionID": "12",
         "flushometerConditionID": "67",
         "comment": "i love auditing",
-            "dateConducted": 1587232345
+            "dateConducted": "04/19/2020"
       },
         {
         "objectType": "toilet",
@@ -76,7 +76,7 @@
         "basinConditionID": "12",
         "flushometerConditionID": "67",
         "comment": "i love auditing",
-            "dateConducted": 1587232345
+            "dateConducted": "04/19/2020"
       }
     ]
 }
