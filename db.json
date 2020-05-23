@@ -78,7 +78,79 @@
         "comment": "i love auditing",
             "dateConducted": "4/19/2020"
       }
-    ]
+    ],
+        "setup": {
+        "globalSelectors": [
+            {
+                "type": "dropdown",
+                "filterQueryValue": "query string",
+                "filterViewValue": "University",
+                "values": [
+                    "UCLA"
+                ],
+                "validation": []
+            },
+            {
+                "type": "dropdown",
+                "filterQueryValue": "query string",
+                "filterViewValue": "Feature Type",
+                "values": [
+                    "Toilet"
+                ],
+                "validation": []
+            }
+        ],
+        "featureFilters": {
+            "Toilet": [
+                {
+                    "type": "dropdown",
+                    "filterQueryValue": "query string",
+                    "filterViewValue": "GPF",
+                    "values": [
+                        "Toilet"
+                    ],
+                    "validation": []
+                },
+                {
+                    "type": "dropdown",
+                    "filterQueryValue": "query string",
+                    "filterViewValue": "Building Name",
+                    "values": [
+                        "Toilet"
+                    ],
+                    "validation": []
+                },
+                {
+                    "type": "dropdown",
+                    "filterQueryValue": "query string",
+                    "filterViewValue": "Feature Type",
+                    "values": [
+                        "Flushometer Brand"
+                    ],
+                    "validation": []
+                },
+                {
+                    "type": "dropdown",
+                    "filterQueryValue": "query string",
+                    "filterViewValue": "Basin Brand",
+                    "values": [
+                        "Toilet"
+                    ],
+                    "validation": []
+                }
+            ],
+            "featureColumns": {
+                "Toilet": [
+                    {
+                        "columnQueryValue": "query value",
+                        "columnViewValue": "GPF",
+                        "default": "True"
+                    }
+                ]
+            }
+        }
+    }
+    
 }
 
   
