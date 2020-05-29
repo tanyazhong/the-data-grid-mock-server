@@ -80,76 +80,60 @@
       }
     ],
         "setup": {
-        "globalSelectors": [
-            {
-                "type": "dropdown",
-                "filterQueryValue": "query string",
-                "filterViewValue": "University",
-                "values": [
-                    "UCLA"
-                ],
-                "validation": []
-            },
-            {
-                "type": "dropdown",
-                "filterQueryValue": "query string",
-                "filterViewValue": "Feature Type",
-                "values": [
-                    "Toilet"
-                ],
-                "validation": []
-            }
-        ],
-        "featureFilters": {
-            "Toilet": [
-                {
-                    "type": "dropdown",
-                    "filterQueryValue": "query string",
-                    "filterViewValue": "GPF",
-                    "values": [
-                        "Toilet"
-                    ],
-                    "validation": []
-                },
-                {
-                    "type": "dropdown",
-                    "filterQueryValue": "query string",
-                    "filterViewValue": "Building Name",
-                    "values": [
-                        "Toilet"
-                    ],
-                    "validation": []
-                },
-                {
-                    "type": "dropdown",
-                    "filterQueryValue": "query string",
-                    "filterViewValue": "Feature Type",
-                    "values": [
-                        "Flushometer Brand"
-                    ],
-                    "validation": []
-                },
-                {
-                    "type": "dropdown",
-                    "filterQueryValue": "query string",
-                    "filterViewValue": "Basin Brand",
-                    "values": [
-                        "Toilet"
-                    ],
-                    "validation": []
-                }
-            ],
-            "featureColumns": {
-                "Toilet": [
-                    {
-                        "columnQueryValue": "query value",
-                        "columnViewValue": "GPF",
-                        "default": "True"
-                    }
-                ]
-            }
-        }
+  "globalColumns": [
+    {
+      "default": true,
+      "columnViewValue": "Date Submitted",
+      "queryValue": "time_submitted",
+      "selector": {
+        "selectorKey": "calendarRange",
+        "selectorValues": null
+      }
+    },
+    {
+      "default": true,
+      "columnViewValue": "Template Name",
+      "queryValue": "template_name",
+      "selector": null
+    },
+    {
+      "default": false,
+      "columnViewValue": "SOP",
+      "queryValue": "sop",
+      "selector": null
     }
+  ],
+  "featureViewValues": [
+    "toilet"
+  ],
+  "featureColumns": [
+    [
+      {
+        "default": true,
+        "columnViewValue": "GPF",
+        "queryValue": "gpf",
+        "selector": {
+          "selectorKey": "numericChoice",
+          "selectorValues": null
+        }
+      },
+      {
+        "default": true,
+        "columnViewValue": "Flushometer Brand Name",
+        "queryValue": "flushometer_brand_name",
+        "selector": {
+          "selectorKey": "dropdown",
+          "selectorValues": [
+            "Sloan",
+            "Moen",
+            "American Standard"
+          ]
+        }
+      }
+    ]
+  ]
+}
+
     
 }
 
