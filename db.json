@@ -161,41 +161,32 @@
     "string"
   ],
   "columnData": [
-    [
-      "2020-01-14",
-      "2020-01-15",
-      "2020-01-16"
-    ],
-    [
-      "Restroom Audit v1",
-      "maintenance2",
-      "e2"
-    ],
-    [
-      {
-        "displayString": "Restroom SOP v1",
-        "URL": "https://rat.com/"
-      },
-      {
-        "displayString": "frederick’s SOP 2",
-        "URL": "https://agar.io/"
-      },
-      {
-        "displayString": "ergo8",
-        "URL": "https://facebook.com/"
-      }
-    ],
-    [
-      "1.45",
-      "6.34",
-      "4.35"
-    ],
-    [
-      "smells bad man",
-      "violent flush",
-      "high centripetal acceleration on flush, streamfunction computation out of bounds"
+        {
+            "Date Submitted": "2020-01-14",
+            "Template Name": "Restroom Audit v1",
+            "SOP": "Restroom SOP v1",
+            "SOPURL": "https://rat.com/",
+            "GPF": "1.45",
+            "Commentary": "smells bad man",
+        },
+        {
+            "Date Submitted": "2020-01-15",
+            "Template Name": "maintenance2",
+            "SOP": "frederick’s SOP 2",
+            "SOPURL": "https://agar.io/",
+            "GPF": "6.34",
+            "Commentary": "violent flush",
+        },
+        {
+            "Date Submitted": "2020-01-16",
+            "Template Name": "Restroom Audit v1",
+            "SOP": "ergo8",
+            "SOPURL": "https://facebook.com/",
+            "GPF": "4.35",
+            "Commentary": "high centripetal acceleration on flush, streamfunction computation out of bounds"
+        }
     ]
-  ]
+
 }
 
 
