@@ -101,6 +101,17 @@
       "columnViewValue": "SOP",
       "queryValue": "sop",
       "selector": null
+    },
+          {
+      "default": false,
+      "columnViewValue": "Feature Type",
+      "queryValue": "sop",
+      "selector": {
+          "selectorKey": "dropdown",
+          "selectorValues": [
+            "Toilet"
+          ]
+        }
     }
   ],
   "featureViewValues": [
