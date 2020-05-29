@@ -1,196 +1,188 @@
 {
-    "toilet": 
-    [
-      {
-        "objectType": "toilet",
-        "gpf": "5",
-        "flushometerBrand": "Generic Brand",
-        "basinBrand": "Basin Brand",
-        "ADAstall": "true",
-        "basinConditionID": "12345",
-        "flushometerConditionID": "67890",
-        "comment": "here is a comment",
-         "dateConducted": "4/5/2020"
-      },
-      {
-        "objectType": "toilet",
-        "gpf": "1.2",
-        "flushometerBrand": "Best Brand",
-        "basinBrand": "Another Basin Brand",
-        "ADAstall": "false",
-        "basinConditionID": "12",
-        "flushometerConditionID": "67",
-        "comment": "i love auditing",
-          "dateConducted": "5/1/2010"
-      },
+    "toilet": [
         {
-        "objectType": "toilet",
-        "gpf": "1.2",
-        "flushometerBrand": "Best Brand",
-        "basinBrand": "Another Basin Brand",
-        "ADAstall": "false",
-        "basinConditionID": "12",
-        "flushometerConditionID": "67",
-        "comment": "i love auditing",
+            "objectType": "toilet",
+            "gpf": "5",
+            "flushometerBrand": "Generic Brand",
+            "basinBrand": "Basin Brand",
+            "ADAstall": "true",
+            "basinConditionID": "12345",
+            "flushometerConditionID": "67890",
+            "comment": "here is a comment",
+            "dateConducted": "4/5/2020"
+        },
+        {
+            "objectType": "toilet",
+            "gpf": "1.2",
+            "flushometerBrand": "Best Brand",
+            "basinBrand": "Another Basin Brand",
+            "ADAstall": "false",
+            "basinConditionID": "12",
+            "flushometerConditionID": "67",
+            "comment": "i love auditing",
             "dateConducted": "5/1/2010"
-      },
+        },
         {
-        "objectType": "toilet",
-        "gpf": "1.2",
-        "flushometerBrand": "Best Brand",
-        "basinBrand": "Another Basin Brand",
-        "ADAstall": "false",
-        "basinConditionID": "12",
-        "flushometerConditionID": "67",
-        "comment": "i love auditing",
-            "dateConducted": "4/19/2020"
-      },
+            "objectType": "toilet",
+            "gpf": "1.2",
+            "flushometerBrand": "Best Brand",
+            "basinBrand": "Another Basin Brand",
+            "ADAstall": "false",
+            "basinConditionID": "12",
+            "flushometerConditionID": "67",
+            "comment": "i love auditing",
+            "dateConducted": "5/1/2010"
+        },
         {
-        "objectType": "toilet",
-        "gpf": "1.2",
-        "flushometerBrand": "Best Brand",
-        "basinBrand": "Another Basin Brand",
-        "ADAstall": "false",
-        "basinConditionID": "12",
-        "flushometerConditionID": "67",
-        "comment": "i love auditing",
+            "objectType": "toilet",
+            "gpf": "1.2",
+            "flushometerBrand": "Best Brand",
+            "basinBrand": "Another Basin Brand",
+            "ADAstall": "false",
+            "basinConditionID": "12",
+            "flushometerConditionID": "67",
+            "comment": "i love auditing",
             "dateConducted": "4/19/2020"
-      },
+        },
         {
-        "objectType": "toilet",
-        "gpf": "1.2",
-        "flushometerBrand": "Best Brand",
-        "basinBrand": "Another Basin Brand",
-        "ADAstall": "false",
-        "basinConditionID": "12",
-        "flushometerConditionID": "67",
-        "comment": "i love auditing",
+            "objectType": "toilet",
+            "gpf": "1.2",
+            "flushometerBrand": "Best Brand",
+            "basinBrand": "Another Basin Brand",
+            "ADAstall": "false",
+            "basinConditionID": "12",
+            "flushometerConditionID": "67",
+            "comment": "i love auditing",
             "dateConducted": "4/19/2020"
-      },
+        },
         {
-        "objectType": "toilet",
-        "gpf": "1.2",
-        "flushometerBrand": "Best Brand",
-        "basinBrand": "Another Basin Brand",
-        "ADAstall": "false",
-        "basinConditionID": "12",
-        "flushometerConditionID": "67",
-        "comment": "i love auditing",
+            "objectType": "toilet",
+            "gpf": "1.2",
+            "flushometerBrand": "Best Brand",
+            "basinBrand": "Another Basin Brand",
+            "ADAstall": "false",
+            "basinConditionID": "12",
+            "flushometerConditionID": "67",
+            "comment": "i love auditing",
             "dateConducted": "4/19/2020"
-      }
+        },
+        {
+            "objectType": "toilet",
+            "gpf": "1.2",
+            "flushometerBrand": "Best Brand",
+            "basinBrand": "Another Basin Brand",
+            "ADAstall": "false",
+            "basinConditionID": "12",
+            "flushometerConditionID": "67",
+            "comment": "i love auditing",
+            "dateConducted": "4/19/2020"
+        }
     ],
-        "setup": {
-  "globalColumns": [
-    {
-      "default": true,
-      "columnViewValue": "Date Submitted",
-      "queryValue": "time_submitted",
-      "selector": {
-        "selectorKey": "calendarRange",
-        "selectorValues": null
-      }
+    "setup": {
+        "globalColumns": [
+            {
+                "default": true,
+                "columnViewValue": "Date Submitted",
+                "queryValue": "time_submitted",
+                "selector": {
+                    "selectorKey": "calendarRange",
+                    "selectorValues": null
+                }
+            },
+            {
+                "default": true,
+                "columnViewValue": "Template Name",
+                "queryValue": "template_name",
+                "selector": null
+            },
+            {
+                "default": false,
+                "columnViewValue": "SOP",
+                "queryValue": "sop",
+                "selector": null
+            },
+            {
+                "default": false,
+                "columnViewValue": "Feature Type",
+                "queryValue": "sop",
+                "selector": {
+                    "selectorKey": "dropdown",
+                    "selectorValues": [
+                        "Toilet"
+                    ]
+                }
+            }
+        ],
+        "featureViewValues": [
+            "toilet"
+        ],
+        "featureColumns": [
+            [
+                {
+                    "default": true,
+                    "columnViewValue": "GPF",
+                    "queryValue": "gpf",
+                    "selector": {
+                        "selectorKey": "numericChoice",
+                        "selectorValues": null
+                    }
+                },
+                {
+                    "default": true,
+                    "columnViewValue": "Flushometer Brand Name",
+                    "queryValue": "flushometer_brand_name",
+                    "selector": {
+                        "selectorKey": "dropdown",
+                        "selectorValues": [
+                            "Sloan",
+                            "Moen",
+                            "American Standard"
+                        ]
+                    }
+                }
+            ]
+        ]
     },
-    {
-      "default": true,
-      "columnViewValue": "Template Name",
-      "queryValue": "template_name",
-      "selector": null
-    },
-    {
-      "default": false,
-      "columnViewValue": "SOP",
-      "queryValue": "sop",
-      "selector": null
-    },
-          {
-      "default": false,
-      "columnViewValue": "Feature Type",
-      "queryValue": "sop",
-      "selector": {
-          "selectorKey": "dropdown",
-          "selectorValues": [
-            "Toilet"
-          ]
-        }
+    "table": {
+        "columnViewValue": [
+            "Date Submitted",
+            "Template Name",
+            "SOP",
+            "GPF",
+            "commentary"
+        ],
+        "columnDatatypeKey": [
+            "string",
+            "string",
+            "hyperlink",
+            "string",
+            "string"
+        ],
+        "columnData": [
+            {
+                "Date Submitted": "2020-01-14",
+                "Template Name": "Restroom Audit v1",
+                "SOP": "Restroom SOP v1",
+                "SOPURL": "https://rat.com/",
+                "GPF": "1.45",
+                "Commentary": "smells bad man"
+            },
+            {
+                "Date Submitted": "2020-01-15",
+                "Template Name": "maintenance2",
+                "SOP": "frederick’s SOP 2",
+                "SOPURL": "https://agar.io/",
+                "GPF": "6.34",
+                "Commentary": "violent flush"
+            },
+            {
+                "Date Submitted": "2020-01-16",
+                "Template Name": "Restroom Audit v1",
+                "SOP": "ergo8",
+                "SOPURL": "https://facebook.com/",
+                "GPF": "4.35",
+                "Commentary": "high centripetal acceleration on flush, streamfunction computation out of bounds"
+            }
+        ]
     }
-  ],
-  "featureViewValues": [
-    "toilet"
-  ],
-  "featureColumns": [
-    [
-      {
-        "default": true,
-        "columnViewValue": "GPF",
-        "queryValue": "gpf",
-        "selector": {
-          "selectorKey": "numericChoice",
-          "selectorValues": null
-        }
-      },
-      {
-        "default": true,
-        "columnViewValue": "Flushometer Brand Name",
-        "queryValue": "flushometer_brand_name",
-        "selector": {
-          "selectorKey": "dropdown",
-          "selectorValues": [
-            "Sloan",
-            "Moen",
-            "American Standard"
-          ]
-        }
-      }
-    ]
-  ]
-},
-    "table" : 
-{
-  "columnViewValue": [
-    "Date Submitted",
-    "Template Name",
-    "SOP",
-    "GPF",
-    "commentary"
-  ],
-  "columnDatatypeKey": [
-    "string",
-    "string",
-    "hyperlink",
-    "string",
-    "string"
-  ],
-  "columnData": [
-        {
-            "Date Submitted": "2020-01-14",
-            "Template Name": "Restroom Audit v1",
-            "SOP": "Restroom SOP v1",
-            "SOPURL": "https://rat.com/",
-            "GPF": "1.45",
-            "Commentary": "smells bad man",
-        },
-        {
-            "Date Submitted": "2020-01-15",
-            "Template Name": "maintenance2",
-            "SOP": "frederick’s SOP 2",
-            "SOPURL": "https://agar.io/",
-            "GPF": "6.34",
-            "Commentary": "violent flush",
-        },
-        {
-            "Date Submitted": "2020-01-16",
-            "Template Name": "Restroom Audit v1",
-            "SOP": "ergo8",
-            "SOPURL": "https://facebook.com/",
-            "GPF": "4.35",
-            "Commentary": "high centripetal acceleration on flush, streamfunction computation out of bounds"
-        }
-    ]
-
 }
-
-
-    
-}
-
-  
