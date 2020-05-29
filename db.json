@@ -143,7 +143,61 @@
       }
     ]
   ]
+},
+    "table" : 
+{
+  "columnViewValue": [
+    "Date Submitted",
+    "Template Name",
+    "SOP",
+    "GPF",
+    "commentary"
+  ],
+  "columnDatatypeKey": [
+    "string",
+    "string",
+    "hyperlink",
+    "string",
+    "string"
+  ],
+  "columnData": [
+    [
+      "2020-01-14",
+      "2020-01-15",
+      "2020-01-16"
+    ],
+    [
+      "Restroom Audit v1",
+      "maintenance2",
+      "e2"
+    ],
+    [
+      {
+        "displayString": "Restroom SOP v1",
+        "URL": "https://rat.com/"
+      },
+      {
+        "displayString": "frederick’s SOP 2",
+        "URL": "https://agar.io/"
+      },
+      {
+        "displayString": "ergo8",
+        "URL": "https://facebook.com/"
+      }
+    ],
+    [
+      "1.45",
+      "6.34",
+      "4.35"
+    ],
+    [
+      "smells bad man",
+      "violent flush",
+      "high centripetal acceleration on flush, streamfunction computation out of bounds"
+    ]
+  ]
 }
+
 
     
 }
