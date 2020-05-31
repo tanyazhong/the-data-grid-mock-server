@@ -80,15 +80,7 @@
   ],
   "setup": {
     "globalColumns": [
-      {
-        "default": true,
-        "columnViewValue": "Date Submitted",
-        "queryValue": "time_submitted",
-        "selector": {
-          "selectorKey": "calendarRange",
-          "selectorValues": null
-        }
-      },
+
       {
         "default": true,
         "columnViewValue": "Template Name",
