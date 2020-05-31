@@ -1,83 +1,4 @@
 {
-  "toilet": [
-    {
-      "objectType": "toilet",
-      "gpf": "5",
-      "flushometerBrand": "Generic Brand",
-      "basinBrand": "Basin Brand",
-      "ADAstall": "true",
-      "basinConditionID": "12345",
-      "flushometerConditionID": "67890",
-      "comment": "here is a comment",
-      "dateConducted": "4/5/2020"
-    },
-    {
-      "objectType": "toilet",
-      "gpf": "1.2",
-      "flushometerBrand": "Best Brand",
-      "basinBrand": "Another Basin Brand",
-      "ADAstall": "false",
-      "basinConditionID": "12",
-      "flushometerConditionID": "67",
-      "comment": "i love auditing",
-      "dateConducted": "5/1/2010"
-    },
-    {
-      "objectType": "toilet",
-      "gpf": "1.2",
-      "flushometerBrand": "Best Brand",
-      "basinBrand": "Another Basin Brand",
-      "ADAstall": "false",
-      "basinConditionID": "12",
-      "flushometerConditionID": "67",
-      "comment": "i love auditing",
-      "dateConducted": "5/1/2010"
-    },
-    {
-      "objectType": "toilet",
-      "gpf": "1.2",
-      "flushometerBrand": "Best Brand",
-      "basinBrand": "Another Basin Brand",
-      "ADAstall": "false",
-      "basinConditionID": "12",
-      "flushometerConditionID": "67",
-      "comment": "i love auditing",
-      "dateConducted": "4/19/2020"
-    },
-    {
-      "objectType": "toilet",
-      "gpf": "1.2",
-      "flushometerBrand": "Best Brand",
-      "basinBrand": "Another Basin Brand",
-      "ADAstall": "false",
-      "basinConditionID": "12",
-      "flushometerConditionID": "67",
-      "comment": "i love auditing",
-      "dateConducted": "4/19/2020"
-    },
-    {
-      "objectType": "toilet",
-      "gpf": "1.2",
-      "flushometerBrand": "Best Brand",
-      "basinBrand": "Another Basin Brand",
-      "ADAstall": "false",
-      "basinConditionID": "12",
-      "flushometerConditionID": "67",
-      "comment": "i love auditing",
-      "dateConducted": "4/19/2020"
-    },
-    {
-      "objectType": "toilet",
-      "gpf": "1.2",
-      "flushometerBrand": "Best Brand",
-      "basinBrand": "Another Basin Brand",
-      "ADAstall": "false",
-      "basinConditionID": "12",
-      "flushometerConditionID": "67",
-      "comment": "i love auditing",
-      "dateConducted": "4/19/2020"
-    }
-  ],
   "setup": {
     "globalColumns": [
 
@@ -105,7 +26,23 @@
           ]
         }
       },
-      {
+      
+    ],
+    "featureViewValues": [
+      "toilet"
+    ],
+    "featureColumns": [
+      [
+        {
+          "default": true,
+          "columnViewValue": "GPF",
+          "queryValue": "gpf",
+          "selector": {
+            "selectorKey": "numericChoice",
+            "selectorValues": null
+          }
+        },
+        {
         "default": true,
         "columnViewValue": "Basin Condition",
         "queryValue": "basin_condition_name",
@@ -129,34 +66,6 @@
           ]
         }
       }
-    ],
-    "featureViewValues": [
-      "toilet"
-    ],
-    "featureColumns": [
-      [
-        {
-          "default": true,
-          "columnViewValue": "GPF",
-          "queryValue": "gpf",
-          "selector": {
-            "selectorKey": "numericChoice",
-            "selectorValues": null
-          }
-        },
-        {
-          "default": true,
-          "columnViewValue": "Flushometer Brand Name",
-          "queryValue": "flushometer_brand_name",
-          "selector": {
-            "selectorKey": "dropdown",
-            "selectorValues": [
-              "Sloan",
-              "Moen",
-              "American Standard"
-            ]
-          }
-        }
       ]
     ]
   },
