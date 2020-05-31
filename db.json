@@ -1,114 +1,112 @@
 {
-  "setup": {
-    "globalColumns": [
-
-      {
-        "default": true,
-        "columnViewValue": "Template Name",
-        "queryValue": "template_name",
-        "selector": null
-      },
-      {
-        "default": false,
-        "columnViewValue": "SOP",
-        "queryValue": "sop",
-        "selector": null
-      },
-      {
-        "default": true,
-        "columnViewValue": "Building Name",
-        "queryValue": "building_name",
-        "selector": {
-          "selectorKey": "dropdown",
-          "selectorValues": [
-            "Young Hall",
-            "Boelter Hall"
-          ]
-        }
-      },
-      
-    ],
-    "featureViewValues": [
-      "toilet"
-    ],
-    "featureColumns": [
-      [
-        {
-          "default": true,
-          "columnViewValue": "GPF",
-          "queryValue": "gpf",
-          "selector": {
-            "selectorKey": "numericChoice",
-            "selectorValues": null
-          }
-        },
-        {
-        "default": true,
-        "columnViewValue": "Basin Condition",
-        "queryValue": "basin_condition_name",
-        "selector": {
-          "selectorKey": "dropdown",
-          "selectorValues": [
-            "Leaking",
-            "Missing/Broken seat"
-          ]
-        }
-      },
-      {
-        "default": true,
-        "columnViewValue": "Basin Brand",
-        "queryValue": "basin_brand_name",
-        "selector": {
-          "selectorKey": "dropdown",
-          "selectorValues": [
-            "Toilet Basin Brand 1",
-            "Toilet Basin Brand 2"
-          ]
-        }
-      }
-      ]
-    ]
-  },
-  "table": {
-    "columnViewValue": [
-      "Date Submitted",
-      "Template Name",
-      "SOP",
-      "GPF",
-      "Commentary"
-    ],
-    "columnDatatypeKey": [
-      "string",
-      "string",
-      "hyperlink",
-      "string",
-      "string"
-    ],
-    "columnData": [
-      {
-        "Date Submitted": "2020-01-14",
-        "Template Name": "Restroom Audit v1",
-        "SOP": "Restroom SOP v1",
-        "SOPURL": "https://rat.com/",
-        "GPF": "1.45",
-        "Commentary": "smells bad man"
-      },
-      {
-        "Date Submitted": "2020-01-15",
-        "Template Name": "maintenance2",
-        "SOP": "frederick’s SOP 2",
-        "SOPURL": "https://agar.io/",
-        "GPF": "6.34",
-        "Commentary": "violent flush"
-      },
-      {
-        "Date Submitted": "2020-01-16",
-        "Template Name": "Restroom Audit v1",
-        "SOP": "ergo8",
-        "SOPURL": "https://facebook.com/",
-        "GPF": "4.35",
-        "Commentary": "high centripetal acceleration on flush, streamfunction computation out of bounds"
-      }
-    ]
-  }
+    "setup": {
+        "globalColumns": [
+            {
+                "default": true,
+                "columnViewValue": "Template Name",
+                "queryValue": "template_name",
+                "selector": null
+            },
+            {
+                "default": false,
+                "columnViewValue": "SOP",
+                "queryValue": "sop",
+                "selector": null
+            },
+            {
+                "default": true,
+                "columnViewValue": "Building Name",
+                "queryValue": "building_name",
+                "selector": {
+                    "selectorKey": "dropdown",
+                    "selectorValues": [
+                        "Young Hall",
+                        "Boelter Hall"
+                    ]
+                }
+            }
+        ],
+        "featureViewValues": [
+            "toilet"
+        ],
+        "featureColumns": [
+            [
+                {
+                    "default": true,
+                    "columnViewValue": "GPF",
+                    "queryValue": "gpf",
+                    "selector": {
+                        "selectorKey": "numericChoice",
+                        "selectorValues": null
+                    }
+                },
+                {
+                    "default": true,
+                    "columnViewValue": "Basin Condition",
+                    "queryValue": "basin_condition_name",
+                    "selector": {
+                        "selectorKey": "dropdown",
+                        "selectorValues": [
+                            "Leaking",
+                            "Missing/Broken seat"
+                        ]
+                    }
+                },
+                {
+                    "default": true,
+                    "columnViewValue": "Basin Brand",
+                    "queryValue": "basin_brand_name",
+                    "selector": {
+                        "selectorKey": "dropdown",
+                        "selectorValues": [
+                            "Toilet Basin Brand 1",
+                            "Toilet Basin Brand 2"
+                        ]
+                    }
+                }
+            ]
+        ]
+    },
+    "table": {
+        "columnViewValue": [
+            "Date Submitted",
+            "Template Name",
+            "SOP",
+            "GPF",
+            "Commentary"
+        ],
+        "columnDatatypeKey": [
+            "string",
+            "string",
+            "hyperlink",
+            "string",
+            "string"
+        ],
+        "columnData": [
+            {
+                "Date Submitted": "2020-01-14",
+                "Template Name": "Restroom Audit v1",
+                "SOP": "Restroom SOP v1",
+                "SOPURL": "https://rat.com/",
+                "GPF": "1.45",
+                "Commentary": "smells bad man"
+            },
+            {
+                "Date Submitted": "2020-01-15",
+                "Template Name": "maintenance2",
+                "SOP": "frederick’s SOP 2",
+                "SOPURL": "https://agar.io/",
+                "GPF": "6.34",
+                "Commentary": "violent flush"
+            },
+            {
+                "Date Submitted": "2020-01-16",
+                "Template Name": "Restroom Audit v1",
+                "SOP": "ergo8",
+                "SOPURL": "https://facebook.com/",
+                "GPF": "4.35",
+                "Commentary": "high centripetal acceleration on flush, streamfunction computation out of bounds"
+            }
+        ]
+    }
 }
