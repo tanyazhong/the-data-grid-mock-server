@@ -68,45 +68,52 @@
         ]
     },
     "table": {
-        "columnViewValue": [
-            "Date Submitted",
-            "Template Name",
-            "SOP",
-            "GPF",
-            "Commentary"
-        ],
-        "columnDatatypeKey": [
-            "string",
-            "string",
-            "hyperlink",
-            "string",
-            "string"
-        ],
-        "columnData": [
-            {
-                "Date Submitted": "2020-01-14",
-                "Template Name": "Restroom Audit v1",
-                "SOP": "Restroom SOP v1",
-                "SOPURL": "https://rat.com/",
-                "GPF": "1.45",
-                "Commentary": "smells bad man"
-            },
-            {
-                "Date Submitted": "2020-01-15",
-                "Template Name": "maintenance2",
-                "SOP": "frederick’s SOP 2",
-                "SOPURL": "https://agar.io/",
-                "GPF": "6.34",
-                "Commentary": "violent flush"
-            },
-            {
-                "Date Submitted": "2020-01-16",
-                "Template Name": "Restroom Audit v1",
-                "SOP": "ergo8",
-                "SOPURL": "https://facebook.com/",
-                "GPF": "4.35",
-                "Commentary": "high centripetal acceleration on flush, streamfunction computation out of bounds"
-            }
-        ]
-    }
+  "columnViewValue": [
+    "Date Submitted",
+    "Template Name",
+    "SOP",
+    "GPF",
+    "commentary"
+  ],
+  "columnDatatypeKey": [
+    "string",
+    "string",
+    "hyperlink",
+    "string",
+    "string"
+  ],
+  "rowData": [
+    [
+      "2020-01-14",
+      "Restroom Audit v1",
+      {
+        "displayString": "Restroom SOP v1",
+        "URL": "https://rat.com/"
+      },
+      "1.45",
+      "smells bad man"
+    ],
+    [
+      "2020-01-15",
+      "maintenance2",
+      {
+        "displayString": "frederick’s SOP 2",
+        "URL": "https://agar.io/"
+      }
+      "6.34",
+      "violent flush"
+    ],
+    [
+      "2020-01-16",
+      "e2",
+      {
+        "displayString": "ergo8",
+        "URL": "https://facebook.com/"
+      }
+      "4.35",
+      "high centripetal acceleration on flush, streamfunction computation out of bounds"
+    ]
+  ]
+}
+
 }
