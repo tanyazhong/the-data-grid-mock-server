@@ -63,6 +63,69 @@
                             "Toilet Basin Brand 2"
                         ]
                     }
+                },
+                {
+                    "default": false,
+                    "columnViewValue": "GPF",
+                    "queryValue": "gpf",
+                    "selector": {
+                        "selectorKey": "numericEqual",
+                        "selectorValues": null
+                    }
+                },
+                {
+                    "default": true,
+                    "columnViewValue": "Date Submitted",
+                    "queryValue": "time_submitted",
+                    "selector": {
+                        "selectorKey": "calendarRange",
+                        "selectorValues": null
+                    }
+                },
+                {
+                    "default": false,
+                    "columnViewValue": "Date Submitted",
+                    "queryValue": "time_submitted",
+                    "selector": {
+                        "selectorKey": "calendarEqual",
+                        "selectorValues": null
+                    }
+                },
+                {
+                    "default": true,
+                    "columnViewValue": "Toilet Flushometer Brand",
+                    "queryValue": "flushometer_brand_name",
+                    "selector": {
+                        "selectorKey": "searchableDropdown",
+                        "selectorValues": [
+                            "Brand 1",
+                            "Brand 2"
+                        ]
+                    }
+                },
+                {
+                    "default": true,
+                    "columnViewValue": "Toilet Flushometer Condition",
+                    "queryValue": "flushometer_condition_name",
+                    "selector": {
+                        "selectorKey": "searchableDropdown",
+                        "selectorValues": [
+                            "Brand 1",
+                            "Brand 2"
+                        ]
+                    }
+                },
+                {
+                    "default": true,
+                    "columnViewValue": "Toilet Stall Condition",
+                    "queryValue": "stall_condition_name",
+                    "selector": {
+                        "selectorKey": "searchableChecklistDropdown",
+                        "selectorValues": [
+                            "Brand 1",
+                            "Brand 2"
+                        ]
+                    }
                 }
             ]
         ]
