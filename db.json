@@ -132,7 +132,10 @@
                         "default": true,
                         "columnFrontendName": "GPF",
                         "columnBackendID": 45,
-                        "filterSelector": "numericChoice",
+                        "filterSelector": {
+                            "selectorKey": "numericChoice",
+                            "selectorValue": null
+                        },
                         "inputSelector": "numericEqual",
                         "datatype": 0,
                         "nullable": false,
@@ -182,7 +185,10 @@
                         "default": true,
                         "columnFrontendName": "PSI",
                         "columnBackendID": 46,
-                        "filterSelector": "numericChoice",
+                        "filterSelector": {
+                            "selectorKey": "numericChoice",
+                            "selectorValue": null
+                        },
                         "inputSelector": "numericEqual",
                         "datatype": 0,
                         "nullable": true,
@@ -217,7 +223,10 @@
                         "default": true,
                         "columnFrontendName": "Leaking",
                         "columnBackendID": 49,
-                        "filterSelector": "bool",
+                        "filterSelector": {
+                            "selectorKey": "bool",
+                            "selectorValue": null
+                        },
                         "inputSelector": "bool",
                         "datatype": 2,
                         "nullable": false,
@@ -228,7 +237,10 @@
                         "default": true,
                         "columnFrontendName": "Flow Rate",
                         "columnBackendID": 33,
-                        "filterSelector": "numericChoice",
+                        "filterSelector": {
+                            "selectorKey": "numericChoice",
+                            "selectorValue": null
+                        },
                         "inputSelector": "numericEqual",
                         "datatype": 0,
                         "nullable": true,
