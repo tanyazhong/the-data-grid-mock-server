@@ -254,7 +254,7 @@
         "datatypes": [
             "string",
             "hyperlink",
-            "bool"
+            "bool" 
         ],
         "setupLastModified": 1596004069
     }
