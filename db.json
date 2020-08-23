@@ -173,23 +173,6 @@
                         "information": "Company that sold basin end-product",
                         "accuracy": 100.0
                     },
-                     {
-                        "default": true,
-                        "columnFrontendName": "Numeric Equal",
-                        "columnBackendID": 84,
-                        "filterSelector": {
-                            "selectorKey": "numericEqual",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "inputSelector": {
-                            "selectorKey": "dropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "datatype": 0,
-                        "nullable": true,
-                        "information": "Company that sold basin end-product",
-                        "accuracy": 100.0
-                    },
                     {
                         "default": true,
                         "columnFrontendName": "Calendar Equal",
@@ -213,40 +196,6 @@
                         "columnBackendID": 84,
                         "filterSelector": {
                             "selectorKey": "searchableDropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "inputSelector": {
-                            "selectorKey": "dropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "datatype": 0,
-                        "nullable": true,
-                        "information": "Company that sold basin end-product",
-                        "accuracy": 100.0
-                    },
-                    {
-                        "default": true,
-                        "columnFrontendName": "Checklist Dropdown",
-                        "columnBackendID": 84,
-                        "filterSelector": {
-                            "selectorKey": "checklistDropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "inputSelector": {
-                            "selectorKey": "dropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "datatype": 0,
-                        "nullable": true,
-                        "information": "Company that sold basin end-product",
-                        "accuracy": 100.0
-                    },
-                     {
-                        "default": true,
-                        "columnFrontendName": "Searchable Checklist Dropdown",
-                        "columnBackendID": 84,
-                        "filterSelector": {
-                            "selectorKey": "searchableChecklistDropdown",
                             "selectorValue": "QUERYSTRING"
                         },
                         "inputSelector": {
