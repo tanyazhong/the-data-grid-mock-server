@@ -237,7 +237,6 @@
                       "default": true,
                         "columnFrontendName": "Flow Rate",
                         "columnBackendID": 33,
-                        "filterSelector": "numericChoice",
                         "filterSelector": {
                             "selectorKey": "numericChoice",
                             "selectorValue": null
