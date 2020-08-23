@@ -189,23 +189,6 @@
                         "nullable": true,
                         "information": "Company that sold basin end-product",
                         "accuracy": 100.0
-                    },
-                    {
-                        "default": true,
-                        "columnFrontendName": "Searchable Dropdown",
-                        "columnBackendID": 84,
-                        "filterSelector": {
-                            "selectorKey": "searchableDropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "inputSelector": {
-                            "selectorKey": "dropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "datatype": 0,
-                        "nullable": true,
-                        "information": "Company that sold basin end-product",
-                        "accuracy": 100.0
                     }
                 ],
                 "directChildren": []
