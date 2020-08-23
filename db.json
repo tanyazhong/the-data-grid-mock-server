@@ -244,7 +244,7 @@
                         },
                         "inputSelector": "numericEqual",
                         "datatype": 0,
-                        "nullable": true,
+                        "nullable": true
                     }
                 ],
                 "directChildren": []
@@ -254,7 +254,7 @@
         "datatypes": [
             "string",
             "hyperlink",
-            "bool" 
+            "bool"
         ],
         "setupLastModified": 1596004069
     }
