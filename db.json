@@ -257,23 +257,6 @@
                         "nullable": true,
                         "information": "Company that sold basin end-product",
                         "accuracy": 100.0
-                    },
-                    {
-                        "default": true,
-                        "columnFrontendName": "Text",
-                        "columnBackendID": 84,
-                        "filterSelector": {
-                            "selectorKey": "text",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "inputSelector": {
-                            "selectorKey": "dropdown",
-                            "selectorValue": "QUERYSTRING"
-                        },
-                        "datatype": 0,
-                        "nullable": true,
-                        "information": "Company that sold basin end-product",
-                        "accuracy": 100.0
                     }
                 ],
                 "directChildren": []
@@ -334,20 +317,6 @@
                         "nullable": false,
                         "information": "Water loss",
                         "accuracy": 100.00
-                    },
-                    {
-                        "default": true,
-                        "columnFrontendName": "Flow Rate",
-                        "columnBackendID": 33,
-                        "filterSelector": {
-                            "selectorKey": "numericChoice",
-                            "selectorValue": null
-                        },
-                        "inputSelector": "numericEqual",
-                        "datatype": 0,
-                        "nullable": true,
-                        "information": "SI units (m^3/s)",
-                        "accuracy": 75.7
                     }
                 ],
                 "directChildren": []
