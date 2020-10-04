@@ -107,7 +107,7 @@
             {
                 "default": true,
                 "columnFrontendName": "Organization",
-                "columnBackendID": 29,
+                "columnBackendID": 72,
                 "filterSelector": {
                     "selectorKey": "searchableDropdown",
                     "selectorValue": "QUERYSTRING"
@@ -198,7 +198,7 @@
                     {
                         "default": true,
                         "columnFrontendName": "SOP",
-                        "columnBackendID": 35,
+                        "columnBackendID": 30,
                         "filterSelector": null,
                         "inputSelector": {
                             "selectorKey": "dropdown",
